@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
+        },{id: "nav-",
+          title: "",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -73,9 +73,9 @@ ninja.data = [{
           description: "Master thesis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-phd-thesis",
-          title: 'PhD thesis',
-          description: "",
+            },},{id: "projects-the-algorithmic-skeleton-library-revisited",
+          title: 'The Algorithmic Skeleton Library Revisited',
+          description: "PhD thesis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-",
