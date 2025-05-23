@@ -83,6 +83,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-selected-work-for-moodle-plugins",
+          title: 'Selected work for Moodle Plugins',
+          description: "Course lifecycle / Moodleoverflow / OwnCloud Client",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Moodle/";
             },},{
         id: 'social-dblp',
         title: 'DBLP',
