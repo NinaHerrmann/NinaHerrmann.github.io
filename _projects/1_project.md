@@ -2,7 +2,7 @@
 layout: page
 title: Exploring High- and Low-Level Approaches for GPGPU Processing of Telescope Data.
 description: Master thesis
-img: assets/process.pdf
+img: assets/img/process.pdf
 importance: 1
 category: work
 related_publications: false
