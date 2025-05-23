@@ -2,7 +2,7 @@
 layout: page
 title: Exploring High- and Low-Level Approaches for GPGPU Processing of Telescope Data.
 description: Master thesis
-img: assets/img/process.pdf
+img: assets/img/process.png
 importance: 1
 category: work
 related_publications: false
@@ -32,5 +32,11 @@ Tested Settings:
 | 3.3      | 268,435,456| 2048     | 8    | 2,147,483,648                                | 11             | 2,952,790,016             |
 | 3.4      | 268,435,456 | 32768    | 4    | 1,073,741,824                                | 15             | 4,026,531,840             |
 
+Comparison of FIR-Filter
 <img src="assets/img/lowhigh.png" alt="Comparison Low-level High-level" width="500" height="333">
+
+Comparison of FFT
+<img src="assets/img/lowhighfft.png" alt="Comparison All Results" width="500" height="333">
+
+Complete comparison
 <img src="assets/img/results.png" alt="Comparison All Results" width="500" height="333">

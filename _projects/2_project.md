@@ -2,7 +2,7 @@
 layout: page
 title: PhD thesis
 description:
-img: assets/img/3.jpg
+img: assets/img/classdiss.png
 importance: 1
 category: work
 giscus_comments: false
