@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PhD thesis
-description:
+title: The Algorithmic Skeleton Library Revisited
+description: PhD thesis
 img: assets/img/classdiss.png
 importance: 1
 category: work
