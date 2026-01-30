@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Correctness may be theoretical but incorrectness has practical impact.
 

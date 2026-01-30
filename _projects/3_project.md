@@ -3,9 +3,9 @@ layout: page
 title: Optimizing Three-Dimensional Stencil-Operations on
 Heterogeneous Computing Environments
 description: IJPP
-img: assets/img/7.jpg
+img: assets/img/publication_preview/celeritystencil.png
 importance: 3
-category: publications
+category: Muesli
 ---
 
 Complex algorithms and enormous data sets require parallel execution of programs to

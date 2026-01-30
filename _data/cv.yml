@@ -29,6 +29,8 @@
         - High-Level Frameworks
         - Telescope Data
         - title: Exploring High- and Low-Level Approaches for GPGPU Processing of Telescope Data.
+          contents:
+            - Processing Techniques of Telescope Data
 
 - title: Experience
   type: time_table

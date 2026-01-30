@@ -4,7 +4,7 @@ title: The Algorithmic Skeleton Library Revisited
 description: PhD thesis
 img: assets/img/classdiss.png
 importance: 1
-category: work
+category: Dissertation
 giscus_comments: false
 ---
 
