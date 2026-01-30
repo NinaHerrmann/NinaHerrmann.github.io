@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: project
 title: Exploring High- and Low-Level Approaches for GPGPU Processing of Telescope Data.
 description: Master thesis
 img: assets/img/process.png
 importance: 1
-category: work
+category: High-Level Parallel Programming
 related_publications: false
 ---
 
@@ -33,10 +33,10 @@ Tested Settings:
 | 3.4      | 268,435,456 | 32768    | 4    | 1,073,741,824                                | 15             | 4,026,531,840             |
 
 Comparison of FIR-Filter
-<img src="assets/img/lowhigh.png" alt="Comparison Low-level High-level" width="500" height="333">
+{% include figure.liquid loading="eager" path="assets/img/lowhigh.png" alt="Data-Efficient Deep Learning" class="img-fluid rounded z-depth-1" %}
 
 Comparison of FFT
-<img src="assets/img/lowhighfft.png" alt="Comparison All Results" width="500" height="333">
+{% include figure.liquid loading="eager" path="assets/img/lowhighfft.png" alt="Comparison All Results" class="img-fluid rounded z-depth-1" %}
 
 Complete comparison
-<img src="assets/img/results.png" alt="Comparison All Results" width="500" height="333">
+{% include figure.liquid loading="eager" path="assets/img/results.png" alt="Comparison All Results" class="img-fluid rounded z-depth-1" %} 
