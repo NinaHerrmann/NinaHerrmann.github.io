@@ -1,6 +1,43 @@
----
----
-
+@inproceedings{schroedter2026bitwisequant,
+	title={Trainable Bitwise Soft Quantization for Input Feature Compression (accepted, not yet published)},
+	author={Schrödter, Karsten and Stenkamp, Jan and Herrmann, Nina and Gieseke, Fabian},
+	booktitle={Third Conference on Parsimony and Learning (CPAL)},
+	year={2026},
+	abstract = {The growing demand for machine learning applications in the context of the Internet of Things calls for new approaches to optimize the use of limited compute and memory resources. Despite significant progress that has been made w.r.t. reducing model sizes and improving efficiency, many applications still require remote servers to provide the required resources. However, such approaches rely on transmitting data from edge devices to remote servers, which may not always be feasible due to bandwidth, latency, or energy constraints. We propose a task-specific, trainable feature quantization layer that compresses the input features of a neural network. This can significantly reduce the amount of data that needs to be transferred from the device to a remote server. In particular, the layer allows each input feature to be quantized to a user-defined number of bits, enabling a simple on-device compression at the time of data collection. The layer is designed to approximate step functions with sigmoids, enabling trainable quantization thresholds. By concatenating outputs from multiple sigmoids, introduced as bitwise soft quantization, it achieves trainable quantized values when integrated with a neural network. We compare our method to full-precision inference as well as to several quantization baselines. Experiments show that our approach outperforms standard quantization methods, while maintaining accuracy levels close to those of full-precision models. In particular, depending on the dataset at hand, compression factors of to can be achieved without significant performance loss.},
+	abbr={CPAL26},
+	bibtex_show={true},
+	preview={2026_bitwise_quantization.png},
+	selected={false},
+	tags={ml,application,rs},
+	projects={ai4forest}
+}
+@inproceedings{Stenkampcountingparkedbicycles,
+	title={Counting Parked Bicycles on the Edge - A TinyML Smart City Application (accepted, not yet published)},
+	author={Stenkamp, Jan and Hunke, Mathis and Karatas, Cem and Kirchhoff, Steffen, and Knaden, Christoph and Naebers, Paul and Zhao, Lige and Karic, Benjamin and Gieseke, Fabian and Herrmann, Nina},
+	booktitle={ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (Sensys)},
+	year={2026},
+	abstract = {As cities strive to reduce car dependency and promote sustainable transportation, encouraging bicycle usage becomes a vital part of the urban planning process. The existence of a sufficient number of bicycle storage facilities is a key building block, as it reduces the likelihood of bicycle theft and the necessity for bicycle repairs. By monitoring the utilization of bicycle parking lots, supply shortfalls can be detected, and users can be informed about the availability of slots. However, detection systems face multiple challenges. Equipping every parking slot with individual sensors is costly, and transmitting visual data can raise privacy concerns or even discourage users. To address this problem, embedded machine learning can be used to process visual data locally and transmit only the resulting count to a central server. This work sets out a real-world use case for microcontrollers that are equipped with a camera and an embedded machine learning model for the purpose of counting parked bicycles. A custom dataset was collected and labeled to train an object-detection model, which was subsequently compressed and deployed on an ESP32-S3 microcontroller that processes the image data locally and transmits only the bicycle count to a remote server via LoRaWAN. The model compression incurs only a marginal performance degradation, with the compressed model still achieving an AP@50 of 0.91. Hence, our approach demonstrates the practical realization of recent theoretical advances in tiny machine learning and provides a viable solution for monitoring bicycle parking facilities in real-world settings.},
+	abbr={Sensys26},
+	bibtex_show={true},
+	preview={2026_countingbicycles.png},
+	selected={false},
+	tags={ml,application,rs},
+	projects={tinyaiot}
+}
+@inproceedings{treesonadiet,
+	title={Boosted Trees on a Diet: Compact Models for Resource-Constrained Devices},
+	author={Herrmann, Nina and Stenkamp, Jan and Karic, Benjamin and Oehmcke, Stefan and Gieseke, Fabian},
+	booktitle={The Fourteenth International Conference on Learning Representations},
+	year={2026},
+	abbr={ICLR26},
+	abstract = {Deploying machine learning models on compute-constrained devices has become a key building block of modern IoT applications. In this work, we present a compression scheme for boosted decision trees, addressing the growing need for lightweight machine learning models. Specifically, we provide techniques for training compact boosted decision tree ensembles that exhibit a reduced memory footprint by rewarding, among other things, the reuse of features and thresholds during training. Our experimental evaluation shows that models achieved the same performance with a compression ratio of 4–16x compared to LightGBM models using an adapted training process and an alternative memory layout. Once deployed, the corresponding IoT devices can operate independently of constant communication or external energy supply, and, thus, autonomously, requiring only minimal computing power and energy. This capability opens the door to a wide range of IoT applications, including remote monitoring, edge analytics, and real-time decision making in isolated or power-limited environments.},
+	bibtex_show={true},
+	selected={true},
+	tags={ml,de,energy,rs},
+	projects={tinyaiot},
+	preview={TinyTreeOverview_final_svg.png},
+	url={https://openreview.net/forum?id=batDcksZsh}
+}
 @string{aps = {American Physical Society,}}
 @article{herrmann2024optimizing,
   title={Optimizing Three-Dimensional Stencil-Operations on Heterogeneous Computing Environments},
@@ -11,6 +48,7 @@
   pages={274--297},
   year={2024},
   publisher={Springer},
+  tags={hl-pp},
   preview={celeritystencil.png},
   howpublished={\url{https://link.springer.com/article/10.1007/s10766-024-00769-w}},
   website={https://link.springer.com/article/10.1007/s10766-024-00769-w}
@@ -23,6 +61,7 @@
   number={2-3},
   pages={172--185},
   year={2023},
+  tags={hl-pp},
   publisher={Springer},
   preview={stencil2.png},
   howpublished={\url{https://link.springer.com/article/10.1007/S10766-022-00742-5}},
@@ -36,6 +75,7 @@
   number={5-6},
   pages={433--453},
   year={2022},
+  tags={hl-pp},
   publisher={Springer},
   howpublished={\url{https://link.springer.com/article/10.1007/s10766-022-00735-4}},
   preview={stencilo.png},
@@ -49,6 +89,7 @@
   number={6},
   pages={776--801},
   year={2021},
+  tags={hl-pp},
   publisher={Springer},
   howpublished={\url{https://link.springer.com/article/10.1007/s10766-021-00714-1}},
   preview={aco.png},
