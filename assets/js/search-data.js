@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-résumé",
           title: "Résumé",
           description: "Don&#39;t hesitate to contact me for further information!",
@@ -68,27 +61,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-",
-          title: '',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-the-algorithmic-skeleton-library-revisited",
-          title: 'The Algorithmic Skeleton Library Revisited',
-          description: "PhD thesis",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Dissertation/";
-            },},{id: "projects-exploring-high-and-low-level-approaches-for-gpgpu-processing-of-telescope-data",
-          title: 'Exploring High- and Low-Level Approaches for GPGPU Processing of Telescope Data.',
-          description: "Master thesis",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Masterthesis/";
-            },},{id: "projects-selected-work-for-moodle-plugins",
-          title: 'Selected work for Moodle Plugins',
-          description: "Course lifecycle / Moodleoverflow / OwnCloud Client",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Moodle/";
-            },},{
+          section: "News",},{
         id: 'social-dblp',
         title: 'DBLP',
         section: 'Socials',
